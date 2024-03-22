@@ -12,7 +12,7 @@ body {
 h1 {
     text-align: center;
     color: #ec185b;
-    font-size: 60px;
+    font-size: 70px;
     text-decoration: underline #ec185b;
     margin: 50px;
 }
@@ -39,13 +39,13 @@ p {
     margin: 30px 50px 30px 50px;
     font-size: 18px;
     letter-spacing: 0.5px;
-    line-height: 25px;
+    line-height: 1.5em;
 }
 
 h2 {
     color: #55a4ff;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: underline #55a4ff;
     margin-bottom: 30px;
 }
@@ -89,7 +89,7 @@ h2 {
 
 ul > li {
     text-align: center;
-    font-size: 18px;
+    font-size: 28px;
     padding: 20px;
 }
 
@@ -100,8 +100,14 @@ li > a {
 
 li :hover {
     color: #ec185b;
-    background-color: #404040;
+    /* background-color: #404040;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px; */
+    text-decoration: underline;
 }
 
+div.cursos > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\FE0F\00A0\00A0';
+}
