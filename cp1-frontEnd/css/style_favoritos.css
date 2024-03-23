@@ -5,33 +5,35 @@
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-    width: 15   00px;
-    margin: auto;
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: #ff0040;
 }
 
-h1 {
-    font-size: 90px;
+.botao {
     text-align: center;
-    margin: 50px;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 .botao > a {
     text-decoration: none;
     font-weight: normal;
     color: #ec185b;
-    font-size: 18px;
+    font-size: 40px;
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
     text-transform: uppercase;
-    position: fixed;
-    right: 50px;
-    bottom: 30px;
 }
 
 .botao > a:hover {
@@ -40,9 +42,29 @@ h1 {
     color: #fff;
     border-style: none;
     padding: 12px;
+    transition-duration: 0.5s;
 }
 
-.sites > a {
-    padding: 50px;
+.primeiros {
     text-align: center;
+}
+
+.primeiros > a > img {
+    margin: 50px;
+}
+
+.segundos {
+    text-align: center;
+}
+
+.segundos > a > img {
+    margin: 50px;
+}
+
+.ultimos {
+    text-align: center;
+}
+
+.ultimos > a > img {
+    margin: 50px;
 }

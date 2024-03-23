@@ -74,8 +74,8 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     text-transform: uppercase;
-    position: fixed;
-    right: 50px;
+    position: relative;
+    left: 1050px;
     bottom: 30px;
 }
 
@@ -85,6 +85,7 @@ h2 {
     color: #fff;
     border-style: none;
     padding: 12px;
+    transition-duration: 0.3s;
 }
 
 ul > li {
@@ -94,68 +95,66 @@ ul > li {
 }
 
 a#adm {
-    text-decoration: none;
     color: #ff0000;
 }
 
 a#ads {
-    text-decoration: none;
     color: blueviolet;
 }
 
 #bdd {
-    text-decoration: none;
     color: rgb(0, 255, 0);
 }
 
 #eng-comp {
-    text-decoration: none;
     color: goldenrod;
 }
 
 #eng-prod {
-    text-decoration: none;
     color: darkblue;
 }
 
 #eng-meca {
-    text-decoration: none;
     color: rgb(255, 123, 0);
 }
 
 #gti {
-    text-decoration: none;
     color: cyan;
 }
 
 #jg-dig {
-    text-decoration: none;
     color: salmon;
 }
 
 #si {
-    text-decoration: none;
     color: deeppink;
 }
 
 #sis-net {
-    text-decoration: none;
     color: black;
 }
 
 #rede-pc {
-    text-decoration: none;
     color:  olivedrab;
 }
 
+li > a{
+    text-decoration: none;
+}
+
 li > a:hover {
-    background-color: #404040;
+    /* background-color: #404040;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px; */
+    text-decoration: underline;
 }
 
 div.cursos > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\FE0F\00A0\00A0';
+}
+
+.cursos {
+    margin-bottom: 70px;
 }
