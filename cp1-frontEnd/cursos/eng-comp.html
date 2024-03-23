@@ -4,15 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engenharia da Computação</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #202020;
+        }
+
+        h1 {
+            padding: 10px;
+            margin: 0px auto 50px auto;
+        }
+
+        h2 {
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px
+        }
+
+        p {
+            color: #fff;
+            text-indent: 30px;
+            text-align: justify;
+            margin: 30px 50px 30px 50px;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            line-height: 1.5em;
+        }
+
+        .destaques {
+            background-color: rgb(255, 241, 163);
+            color: rgb(209, 178, 0);
+            text-align: center;
+        }
+
+        main {
+            width: 900px;
+            margin: auto;
+        }
+
+        .menu {
+            margin-top: 70px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: goldenrod;
+            font-size: 20px;
+        }
+
+        .menu > a:hover {
+            background-color: rgb(151, 151, 151);
+            padding: 5px;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+        }
+
+        .imagem {
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Engenharia da Computação</h1>
-    <img src="../imagens/eng-comp.jpg" alt="Curso de Engenharia da Computação">
-    <h2>O Curso</h2>
-    <p>O ENGENHEIRO DA COMPUTAÇÃO desenvolve projetos nas áreas de sistemas operacionais, arquitetura de computadores, redes, robótica e inteligência artificial.</p>
-    <p>A grade privilegia conhecimentos avançados na área de exatas (física e matemática) e aspectos de eletrônica, controle e automação, telecomunicações e TI.</p>
-    <p>Você aprende sobre o ciclo de fabricação (custos, prazos, riscos, qualidade), gerenciamento de equipe, desenvolvimento de aplicativos, linguagens de programação e empreendedorismo.</p>
-    <p>Na FIAP, o futuro engenheiro dispõe de um parque tecnológico avançado, laboratórios de química, informática, fabricação e o ‘Maker Labs’, um dos laboratórios mais modernos de engenharia do Brasil, com impressoras 3D, usinagem, cortadoras laser e fresadoras de precisão para criação de protótipos e peças em automação simples e com CNC (Computer Numeric Control).</p>
-    <a href="bdd.html">Curso Anterior</a> | <a href="../index.html">Página Inicial</a> | <a href="eng-prod.html">Próximo Curso</a>
+    <main>
+        <div class="destaques">
+            <h1>Engenharia da Computação</h1>
+        </div>
+        <div class="imagem"><img src="../imagens/eng-comp.jpg" alt="Curso de Engenharia da Computação"></div>
+        <div class="destaques">
+            <h2>O Curso</h2>
+        </div>
+        <p>O ENGENHEIRO DA COMPUTAÇÃO desenvolve projetos nas áreas de sistemas operacionais, arquitetura de computadores, redes, robótica e inteligência artificial.</p>
+        <p>A grade privilegia conhecimentos avançados na área de exatas (física e matemática) e aspectos de eletrônica, controle e automação, telecomunicações e TI.</p>
+        <p>Você aprende sobre o ciclo de fabricação (custos, prazos, riscos, qualidade), gerenciamento de equipe, desenvolvimento de aplicativos, linguagens de programação e empreendedorismo.</p>
+        <p>Na FIAP, o futuro engenheiro dispõe de um parque tecnológico avançado, laboratórios de química, informática, fabricação e o ‘Maker Labs’, um dos laboratórios mais modernos de engenharia do Brasil, com impressoras 3D, usinagem, cortadoras laser e fresadoras de precisão para criação de protótipos e peças em automação simples e com CNC (Computer Numeric Control).</p>
+        <div class="menu"><a href="bdd.html">Curso Anterior</a> | <a href="../index.html">Página Inicial</a> | <a href="eng-prod.html">Próximo Curso</a></div>
+    </main>
 </body>
 </html>
