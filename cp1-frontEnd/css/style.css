@@ -50,20 +50,10 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* .botao {
-    /* background-color: #ec185b;
-    position: fixed;
-    right: 50px;
-    bottom: 30px;
-    /* padding: 15px; */
-    /* border-radius: 10px;
-    width: 148px;
-    height: 47px;
-    text-align: center;
-    line-height: 48px;
-    border-color: #000000;
-    border-style: solid; 
-}*/
+.botao {
+    float: right;
+    margin-bottom: 50px;
+}
 
 .botao > a {
     text-decoration: none;
@@ -74,13 +64,9 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     text-transform: uppercase;
-    position: relative;
-    left: 1050px;
-    bottom: 30px;
 }
 
 .botao > a:hover {
-    /* color: #000000; */
     background-color: #ec185b;
     color: #fff;
     border-style: none;
@@ -143,9 +129,6 @@ li > a{
 }
 
 li > a:hover {
-    /* background-color: #404040;
-    padding: 5px;
-    border-radius: 10px; */
     text-decoration: underline;
 }
 
