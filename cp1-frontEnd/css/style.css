@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,11 +12,13 @@ body {
 }
 
 h1 {
+    font-family: "Bebas Neue", sans-serif;;
     text-align: center;
     color: #ec185b;
     font-size: 70px;
     text-decoration: underline #ec185b;
     margin: 50px;
+    letter-spacing: 2px;
 }
 
 main {
@@ -48,6 +52,8 @@ h2 {
     font-size: 50px;
     text-decoration: underline;
     margin-bottom: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
 }
 
 .botao {
@@ -76,7 +82,7 @@ h2 {
 
 ul > li {
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -135,7 +141,7 @@ li > a:hover {
 div.cursos > ul {
     list-style-position: inside;
     columns: 2;
-    list-style-type: '\2714\FE0F\00A0\00A0';
+    list-style-type: '\1F4CC\00A0\00A0';
 }
 
 .cursos {
